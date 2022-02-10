@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 import com.MyFSS.beans.EmpBeans;
 
-public class EmpInsert {
+public class EmployeeInsert {
 
 	 static final String DB_URL = "jdbc:mysql://localhost:3306";
 	   static final String USER = "root";
@@ -84,7 +84,7 @@ public class EmpInsert {
 	}
 	   public static void main(String[] args) {
 		
-		EmpInsert e=new EmpInsert();
+		EmployeeInsert e=new EmployeeInsert();
 	}
        
 	}
